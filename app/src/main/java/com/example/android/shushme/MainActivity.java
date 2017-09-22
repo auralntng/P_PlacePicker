@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity implements
         if (requestCode == PLACE_PICKER_REQUEST && resultCode == RESULT_OK) {
             Place place = PlacePicker.getPlace(this, data);
             if (place == null) {
-                Log .1 (TAG, "No place selected")
+                Log.i(TAG, "No place selected")
                 return;
             }
 
